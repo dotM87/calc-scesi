@@ -1,0 +1,16 @@
+[package]
+name = "calc"
+version = "0.0.1"
+edition = "2024"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[package.metadata.deb]
+maintainer = "Miguel Benjamin Zubieta Rios <mbenjaminzr@gmail.com>"
+copyright = "2024, Miguel Benjamin Zubieta Rios <mbenjaminzr@gmail.com>"
+extended-description = """A calculator programmed in rust and packaged in .deb for Debian(Ubuntu) based operating systems."""
+depends = "$auto"
+section = "utility"
+priority = "optional"
